@@ -101,7 +101,7 @@ public class GameGUI extends JFrame implements ActionListener
       dynamiteButton.setVisible(false);
       dynamiteButton.setMnemonic('5');
       
-      messageArea.setText("Messages will appear here.");
+      messageArea.setText("Messages will appear here. Open the menu for game instructions.");
       messageArea.setEditable(false);
       messageArea.setLineWrap(true);
       messageArea.setWrapStyleWord(true);
