@@ -55,7 +55,6 @@ public class GameGUI extends JFrame implements ActionListener
    
    Player player;
    PlayTurn newTurn = new PlayTurn();
-   int roundCount;
    int gameResults = 0;
    
    public GameGUI()
@@ -231,7 +230,7 @@ public class GameGUI extends JFrame implements ActionListener
       dynamiteGuide.addActionListener(new ActionListener() {
                      public void actionPerformed(ActionEvent e)
                      {
-                        messageArea.setText("Dynamite wins against rock and scissors." + "\nDynamite loses against dynamite and paper.");
+                        messageArea.setText("Dynamite wins against rock and scissors." + "\nDynamite loses against paper.");
                         messageArea.append("\nSelect the Alt key and [5] to use shortcuts.");
                      }
                     });
